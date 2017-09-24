@@ -1,6 +1,5 @@
 muxieat:
     build: . 
-    command: gunicorn --name muxiplan -b 0.0.0.0:5499 -w 2 wsgi:app 
+    command: gunicorn --name muxiplan -b 0.0.0.0:7777 -w 2 wsgi:app 
     ports: 
-        - "5499:5499" 
-
+        - "7777:7777" 
